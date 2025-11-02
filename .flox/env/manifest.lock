@@ -1,0 +1,518 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "air": {
+        "pkg-path": "air"
+      },
+      "go": {
+        "pkg-path": "go"
+      },
+      "go-migrate": {
+        "pkg-path": "go-migrate"
+      },
+      "sqlite": {
+        "pkg-path": "sqlite"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "air",
+      "broken": false,
+      "derivation": "/nix/store/wkbvjryzz9l30wxf72l8s8q1y73cjwww-air-1.63.0.drv",
+      "description": "Live reload for Go apps",
+      "install_id": "air",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "air-1.63.0",
+      "pname": "air",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:08:14.517599Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.63.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/sv5yhfgyz53zlfp2p0yw2m8980x68nxi-air-1.63.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "air",
+      "broken": false,
+      "derivation": "/nix/store/rgs8a8637lljj2fzqy6dqwv81bx9qlrv-air-1.63.0.drv",
+      "description": "Live reload for Go apps",
+      "install_id": "air",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "air-1.63.0",
+      "pname": "air",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:18:25.626993Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.63.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w92yvb98hd9v2ga7f80y376vlx15bdlb-air-1.63.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "air",
+      "broken": false,
+      "derivation": "/nix/store/4a323i48xrqjdxwrzy656ja0gx94r7cs-air-1.63.0.drv",
+      "description": "Live reload for Go apps",
+      "install_id": "air",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "air-1.63.0",
+      "pname": "air",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:29:21.141117Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.63.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/zpf0y6vihrnsplmk5wg0wzkv887rgzpr-air-1.63.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "air",
+      "broken": false,
+      "derivation": "/nix/store/p80y11cqgl3milbn92d4k2r5ihkaa2hh-air-1.63.0.drv",
+      "description": "Live reload for Go apps",
+      "install_id": "air",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "air-1.63.0",
+      "pname": "air",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T03:00:53.743089Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.63.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/aqs16kq2dv1qf2sf1fhly6n6ndlyhxm8-air-1.63.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/jldqnzz805lnqqjlrxwxg0qf2wviv834-go-1.25.2.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-1.25.2",
+      "pname": "go",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:08:16.559767Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/nkhf1yv637cp91y79zap7jxmm98v8pvj-go-1.25.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/zpn2pfnb1kddkhky63j4zvrc65xgd8dp-go-1.25.2.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-1.25.2",
+      "pname": "go",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:18:27.889457Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p1d8jb1k4db3aiqwyp8b1kw4mja3qygx-go-1.25.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/09cj9bwjkl8bdh13rdzknpndsmia07g6-go-1.25.2.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-1.25.2",
+      "pname": "go",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:29:22.444874Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/xvwacgkf3x446qq3mdsh3v13f8935wa3-go-1.25.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go",
+      "broken": false,
+      "derivation": "/nix/store/mgy42zhcr96mxkk12mz8200kmv1625nc-go-1.25.2.drv",
+      "description": "Go Programming language",
+      "install_id": "go",
+      "license": "BSD-3-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-1.25.2",
+      "pname": "go",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T03:00:56.282504Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.25.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/k1kn1c59ss7nq6agdppzq3krwmi3xqy4-go-1.25.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-migrate",
+      "broken": false,
+      "derivation": "/nix/store/ahfifbrvbrcii8h5svzywc1cvfvm3rmn-go-migrate-4.19.0.drv",
+      "description": "Database migrations. CLI and Golang library",
+      "install_id": "go-migrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-migrate-4.19.0",
+      "pname": "go-migrate",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:08:16.572297Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/w4brv2v1c6497l66xwwf66mpm3z87cn0-go-migrate-4.19.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-migrate",
+      "broken": false,
+      "derivation": "/nix/store/j1maxygqlby9352chbl1c504hd5gnv2z-go-migrate-4.19.0.drv",
+      "description": "Database migrations. CLI and Golang library",
+      "install_id": "go-migrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-migrate-4.19.0",
+      "pname": "go-migrate",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:18:27.907620Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/rqn6nh173lpvw7jcc7q6c9dfkkqv6yp3-go-migrate-4.19.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-migrate",
+      "broken": false,
+      "derivation": "/nix/store/nlwl1z0ffmii5g0kpa7jaifgr0jlkvj5-go-migrate-4.19.0.drv",
+      "description": "Database migrations. CLI and Golang library",
+      "install_id": "go-migrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-migrate-4.19.0",
+      "pname": "go-migrate",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:29:22.457859Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qcv7v5grya07v5ly37g3k68i7p55a7pn-go-migrate-4.19.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "go-migrate",
+      "broken": false,
+      "derivation": "/nix/store/1l8f48i6744qabxiw1fgqf25r7qn5ibx-go-migrate-4.19.0.drv",
+      "description": "Database migrations. CLI and Golang library",
+      "install_id": "go-migrate",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "go-migrate-4.19.0",
+      "pname": "go-migrate",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T03:00:56.301672Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "4.19.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/v7i4sa7kf9jhass6i0gkv6y2g5jxk215-go-migrate-4.19.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/ay724v6nrf4vdapi19wgn26p96m8873g-sqlite-3.50.4.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "sqlite-3.50.4",
+      "pname": "sqlite",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:10:00.126315Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.50.4",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/i6475v4jmphwjhdyr4fjbzqq5rxmwgf6-sqlite-3.50.4-bin",
+        "dev": "/nix/store/kbvfxwg439bnifcnn4fs9lrdq05jbp7a-sqlite-3.50.4-dev",
+        "doc": "/nix/store/b1cmgsxk2k3i4am9kw3cczgf459j9wpv-sqlite-3.50.4-doc",
+        "man": "/nix/store/3cqa0nc5zplhr353mc93hjv61h4kg2pn-sqlite-3.50.4-man",
+        "out": "/nix/store/y5q93m1vvwdhq9qg4hqx363i6ya4bw7r-sqlite-3.50.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/6r5yz3hxnbqarcb6v6w50b1xsgnx9szw-sqlite-3.50.4.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "sqlite-3.50.4",
+      "pname": "sqlite",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:20:54.645762Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.50.4",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/kri6111sfvjw35kmngin7rnwmxcxd5q9-sqlite-3.50.4-bin",
+        "debug": "/nix/store/cs707x22cnq7ypyxazw1jj1zp2whpipw-sqlite-3.50.4-debug",
+        "dev": "/nix/store/gs76k2qs2k7025lww5vbr8w7j2z6l27d-sqlite-3.50.4-dev",
+        "doc": "/nix/store/4pnxrlyzxaxd4a8jka508haq4vmjkn1f-sqlite-3.50.4-doc",
+        "man": "/nix/store/0z8bdhmn9x6nr50mr6fgcwqwlv7i33jg-sqlite-3.50.4-man",
+        "out": "/nix/store/smzx6y3rh43pxa6hi579qadnlhh4ifpy-sqlite-3.50.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/b80hdnglbcdj9y00992zzjff1z7vrqzx-sqlite-3.50.4.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "sqlite-3.50.4",
+      "pname": "sqlite",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T02:31:03.116783Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.50.4",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/7ml14b47h90vpcl2zviwg2kkzi1lgn8k-sqlite-3.50.4-bin",
+        "dev": "/nix/store/h2mp8cdbcl8g8n7x3p2byqd1lhgr7gls-sqlite-3.50.4-dev",
+        "doc": "/nix/store/hg504ir9zy3dgjr4l370zvl1wjq09jgn-sqlite-3.50.4-doc",
+        "man": "/nix/store/skk8cipwqpy68l84r6k75df2l1cya6mf-sqlite-3.50.4-man",
+        "out": "/nix/store/82yrqgh6qmq7l3jw6nyim2zp83dqsg43-sqlite-3.50.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "sqlite",
+      "broken": false,
+      "derivation": "/nix/store/sniydz5zl2r6bam7i6idkckh16ndhhzp-sqlite-3.50.4.drv",
+      "description": "Self-contained, serverless, zero-configuration, transactional SQL database engine",
+      "install_id": "sqlite",
+      "license": "Public Domain",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "name": "sqlite-3.50.4",
+      "pname": "sqlite",
+      "rev": "6a08e6bb4e46ff7fcbb53d409b253f6bad8a28ce",
+      "rev_count": 883951,
+      "rev_date": "2025-10-25T06:24:58Z",
+      "scrape_date": "2025-10-27T03:03:28.203378Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.50.4",
+      "outputs_to_install": [
+        "bin",
+        "man"
+      ],
+      "outputs": {
+        "bin": "/nix/store/ixhwl6q4mn1j4lm03qcfsl298y5pd7lh-sqlite-3.50.4-bin",
+        "debug": "/nix/store/9k7508jdr0i9vqvazh4sq851a2ry5wdl-sqlite-3.50.4-debug",
+        "dev": "/nix/store/9hpipw45rkdfd37nzsi644c0s4gd3bbn-sqlite-3.50.4-dev",
+        "doc": "/nix/store/a01nw4x632mz7aghm9d0ijrk609ps4vf-sqlite-3.50.4-doc",
+        "man": "/nix/store/a21hgnbrijr66k6i9lj4siic7j1mglqa-sqlite-3.50.4-man",
+        "out": "/nix/store/h6xv1avd5a55aa5c2d3cd069j7hlcv2y-sqlite-3.50.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
